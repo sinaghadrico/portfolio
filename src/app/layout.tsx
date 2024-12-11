@@ -28,17 +28,17 @@ export default function RootLayout({
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mrghasemi1992.ir/" />
+        <meta property="og:url" content="https://sinaghadri.com/" />
         <meta property="og:title" content="Sina Ghadri" />
         <meta property="og:description" content="Sina Ghadri's portfolio" />
         <meta
           property="og:image"
-          content="https://ik.imagekit.io/mggo9dfob/Mohammad%20Reza/preview-meta-tag.png?updatedAt=1731681334431"
+          content="https://sinaghadri.com/images/avatar.jpg"
         />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://mrghasemi1992.ir/" />
+        <meta property="twitter:url" content="https://sinaghadri.com/" />
         <meta property="twitter:title" content="Sina Ghadri" />
         <meta
           property="twitter:description"
@@ -46,7 +46,7 @@ export default function RootLayout({
         />
         <meta
           property="twitter:image"
-          content="https://ik.imagekit.io/mggo9dfob/Mohammad%20Reza/preview-meta-tag.png?updatedAt=1731681334431"
+          content="https://sinaghadri.com/images/avatar.jpg"
         />
 
         {/* favicon */}

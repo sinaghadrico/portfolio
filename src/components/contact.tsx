@@ -33,7 +33,7 @@ const Contact = () => {
         </div>
 
         <form
-          action="https://getform.io/f/azyynwob"
+          action="https://getform.io/f/akkkrwwa"
           method="POST"
           className="xl:pl-10 2xl:pl-20"
         >

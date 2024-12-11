@@ -22,9 +22,9 @@ const About = () => {
             Passionate about creating seamless digital experiences, I specialize
             in React, Next.js, TypeScript, and Node.js to craft scalable and
             responsive designs. I&#39;ve had the opportunity to work with
-            companies like Snapp, SADAD and Fanap, contributing to projects that
-            emphasize functionality and design excellence. Let&#39;s connect and
-            build something amazing together!
+            companies like TeleportDAO, Wallex,Iran Aseman Airlines, and Mofid,
+            contributing to projects that emphasize functionality and design
+            excellence. Let&#39;s connect and build something amazing together!
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ number, label }, key) => (

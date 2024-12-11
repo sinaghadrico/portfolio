@@ -39,7 +39,7 @@ const Footer = () => {
             </h2>
             <Button
               variant="primary"
-              href="mailto:contact@sinaghadri.com"
+              href="mailto:sina.ghadri.dev@gmail.com"
               icon={<ChevronRight className="w-4 h-4 text-zinc-900" />}
             >
               Start project

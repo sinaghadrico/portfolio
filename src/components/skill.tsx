@@ -2,9 +2,39 @@ import { SkillCard } from "@/components";
 
 const skillItem = [
   {
-    imgSrc: "/images/figma.svg",
-    label: "Figma",
-    desc: "Design tool",
+    imgSrc: "/images/javascript.svg",
+    label: "JavaScript",
+    desc: "Language",
+  },
+  {
+    imgSrc: "/images/react.svg",
+    label: "React",
+    desc: "Library",
+  },
+  {
+    imgSrc: "/images/nextjs.svg",
+    label: "Next.js",
+    desc: "Framework",
+  },
+  {
+    imgSrc: "/images/web3js.png",
+    label: "Web3.js",
+    desc: "Library",
+  },
+  {
+    imgSrc: "/images/etherjs.png",
+    label: "Ether.js",
+    desc: "Library",
+  },
+  {
+    imgSrc: "/images/solidity.png",
+    label: "Solidity",
+    desc: "Language",
+  },
+  {
+    imgSrc: "/images/typescript.svg",
+    label: "TypeScript",
+    desc: "Library",
   },
   {
     imgSrc: "/images/css3.svg",
@@ -17,9 +47,24 @@ const skillItem = [
     desc: "Markup Language",
   },
   {
-    imgSrc: "/images/javascript.svg",
-    label: "JavaScript",
-    desc: "Language",
+    imgSrc: "/images/tailwindcss.svg",
+    label: "TailwindCSS",
+    desc: "User Interface",
+  },
+  {
+    imgSrc: "/images/redux.svg",
+    label: "Redux",
+    desc: "State Management",
+  },
+  {
+    imgSrc: "/images/vite.svg",
+    label: "Vite",
+    desc: "Frontend Tooling",
+  },
+  {
+    imgSrc: "/images/git.svg",
+    label: "Git",
+    desc: "Version Control",
   },
   {
     imgSrc: "/images/nodejs.svg",
@@ -37,44 +82,14 @@ const skillItem = [
     desc: "Database",
   },
   {
-    imgSrc: "/images/react.svg",
-    label: "React",
-    desc: "Library",
-  },
-  {
-    imgSrc: "/images/typescript.svg",
-    label: "TypeScript",
-    desc: "Library",
-  },
-  {
-    imgSrc: "/images/nextjs.svg",
-    label: "Next.js",
-    desc: "Framework",
-  },
-  {
-    imgSrc: "/images/redux.svg",
-    label: "Redux",
-    desc: "State Management",
-  },
-  {
-    imgSrc: "/images/tailwindcss.svg",
-    label: "TailwindCSS",
-    desc: "User Interface",
-  },
-  {
-    imgSrc: "/images/vite.svg",
-    label: "Vite",
-    desc: "Frontend Tooling",
-  },
-  {
-    imgSrc: "/images/git.svg",
-    label: "Git",
-    desc: "Version Control",
-  },
-  {
     imgSrc: "/images/docker.svg",
     label: "Docker",
     desc: "Containerization",
+  },
+  {
+    imgSrc: "/images/figma.svg",
+    label: "Figma",
+    desc: "Design tool",
   },
 ];
 
