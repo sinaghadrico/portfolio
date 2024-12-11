@@ -44,7 +44,7 @@ const ProjectCard = ({
           </div>
         </div>
         <div
-          className="w-11 h-11 rounded-lg grid place-items-center bg-amber-400
+          className="w-11 h-11 rounded-lg grid place-items-center bg-green-400
          text-zinc-950 shrink-0"
         >
           <ArrowRightIcon className="-rotate-45 h-6 w-6" />

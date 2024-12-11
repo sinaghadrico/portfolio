@@ -7,6 +7,7 @@ import { useGSAP } from "@gsap/react";
 import "lenis/dist/lenis.css";
 
 import { About, Contact, Hero, Skill, Work } from "@/components";
+import Experience from "@/components/experience";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -37,6 +38,7 @@ export default function Home() {
       <ReactLenis root options={{ autoRaf: true }}>
         <Hero />
         <About />
+        <Experience />
         <Skill />
         <Work />
         <Contact />

@@ -65,12 +65,18 @@ const Navbar = ({ isOpen }: Props) => {
       className: "nav-link",
     },
     {
+      label: "Experiences",
+      link: "#experiences",
+      className: "nav-link",
+    },
+    {
       label: "Skills",
       link: "#skills",
       className: "nav-link",
     },
+
     {
-      label: "Work",
+      label: "Works",
       link: "#work",
       className: "nav-link",
     },

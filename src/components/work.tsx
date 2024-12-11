@@ -20,10 +20,34 @@ const works = [
     projectLink: "https://app.teleswap.xyz/",
   },
   {
+    imgSrc: "/images/works/wallex.png",
+    title: "Wallex",
+    tags: ["Next.js", "TailwindCSS", "i18n", "Monorepo"],
+    projectLink: "https://wallex.ir",
+  },
+  {
+    imgSrc: "/images/works/teleordinal.png",
+    title: "Teleordinal DAPP",
+    tags: ["Next.js", "TailwindCSS", "i18n", "Monorepo"],
+    projectLink: "https://teleordinal.xyz/",
+  },
+  {
     imgSrc: "/images/zeema-2.png",
     title: " Zeema Crowdfunding",
     tags: ["Next.js", "TailwindCSS", "i18n", "Monorepo"],
     projectLink: "https://zeema.fund/",
+  },
+  {
+    imgSrc: "/images/works/dataak.png",
+    title: "Dataak",
+    tags: ["Next.js", "TailwindCSS", "i18n", "Monorepo"],
+    projectLink: "https://dataak.com/",
+  },
+  {
+    imgSrc: "/images/works/moodic.png",
+    title: "Moodic",
+    tags: ["Next.js", "TailwindCSS", "i18n", "Monorepo"],
+    projectLink: "https://mymoodic.com/en",
   },
   {
     imgSrc: "/images/flatlay.jpeg",
@@ -44,7 +68,7 @@ const Work = () => {
     <section id="work" className="section">
       <div className="container">
         <h2 className="headline-2 mb-8 reveal-up">My Portfolio Highlights</h2>
-        <div className="grid gap-x-4 gap-y-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid gap-x-4 gap-y-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
           {works.map(({ imgSrc, projectLink, tags, title }, key) => (
             <ProjectCard
               key={key}
