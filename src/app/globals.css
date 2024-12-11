@@ -44,7 +44,7 @@ html {
 }
 
 .btn-primary {
-  @apply h-11 bg-green-400 text-zinc-950 hover:bg-green-300 active:bg-green-400;
+  @apply h-11 bg-amber-400 text-zinc-950 hover:bg-amber-300 active:bg-amber-400;
 }
 
 .btn-secondary {
@@ -98,7 +98,7 @@ html {
 }
 
 .section {
-  @apply pt-20 lg:pt-32
+  @apply pt-20 lg:pt-32;
 }
 
 .reveal-up {
@@ -132,7 +132,7 @@ html {
 .text-field {
   @apply block outline-none w-full px-3 py-3 text-sm bg-zinc-800 rounded-xl
   right-1 ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5
-  focus:ring-green-400 focus:ring-2;
+  focus:ring-amber-400 focus:ring-2;
 }
 
 .text-field::placeholder {

@@ -33,7 +33,7 @@ const About = () => {
                   <span className="text-2xl font-bold md:text-4xl">
                     {number}
                   </span>
-                  <span className="text-green-400 font-semibold md:text-3xl">
+                  <span className="text-amber-400 font-semibold md:text-3xl">
                     +
                   </span>
                 </div>
