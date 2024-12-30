@@ -17,10 +17,11 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            I&#39;m Sina Ghadri, a frontend engineer with over 9 years of
-            experience building dynamic, user-friendly web applications.
-            Passionate about creating seamless digital experiences, I specialize
-            in React, Next.js, TypeScript, and Node.js to craft scalable and
+            I&#39;m Sina Ghadri, a frontend engineer and web3 developer with
+            over 9 years of experience building dynamic, user-friendly web
+            applications. Passionate about creating seamless digital
+            experiences, I specialize in React, Next.js,
+            TypeScript,Web3,Solidity,EVM,TON, and Node.js to craft scalable and
             responsive designs. I&#39;ve had the opportunity to work with
             companies like TeleportDAO, Wallex,Iran Aseman Airlines, and Mofid,
             contributing to projects that emphasize functionality and design

@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg relative">
               <Image
-                src="/images/avatar.jpg"
+                src="/images/avatar-2.jpg"
                 width={40}
                 height={40}
                 alt="Sina Ghadri Portrait"
@@ -26,7 +26,7 @@ const Hero = () => {
             </div>
           </div>
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Building Scalable Modern Websites for the Future
+            Front-End Engineer Web3 Developer
           </h2>
           <div className="flex items-center gap-3">
             <Button
@@ -50,7 +50,7 @@ const Hero = () => {
         <div className="hidden lg:block">
           <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-amber-400 via-25% via-amber-400/40 to-65% rounded-[60px] overflow-hidden">
             <Image
-              src="/images/avatar.jpg"
+              src="/images/avatar-3.jpg"
               width={656}
               height={800}
               alt="Sina Ghadri"

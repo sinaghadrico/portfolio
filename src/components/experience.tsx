@@ -7,7 +7,7 @@ const experienceItem = [
     company: "Teleport DAO",
     link: "https://teleportdao.xyz/",
     date: "MAY 2022 - PRESENT",
-    location: "Canada ( Remote )",
+    location: "DUBAI, UAE",
     desc: "Language",
   },
   {

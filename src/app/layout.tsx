@@ -2,15 +2,58 @@ import { Nunito } from "next/font/google";
 
 import "./globals.css";
 import { Footer, Header } from "@/components";
+import { appDetails } from "@/utils/configs";
+import { Metadata } from "next";
 
 const nunito = Nunito({
   subsets: ["latin"],
   display: "swap",
 });
 
-export const metadata = {
-  title: "Sina Ghadri",
-  description: "Sina Ghadri's portfolio",
+export const metadata: Metadata = {
+  metadataBase: new URL(appDetails.url),
+  category: appDetails.category,
+  robots: "index, follow",
+  title: appDetails.title,
+  description: appDetails.description,
+  alternates: {
+    canonical: `${appDetails.url}`,
+  },
+  keywords: [
+    "sina",
+    "sina ghadri",
+    "ghadri",
+    "سینا",
+    "سینا قدری",
+    "قدری",
+    "portfolio",
+    "Frontend",
+    "Developer",
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "Web3",
+    "Blockchain",
+    "DeFi",
+    "EVM",
+    "Solidity",
+    "TON",
+  ],
+  openGraph: {
+    title: appDetails.title,
+    description: appDetails.description,
+    type: "website",
+    images: [appDetails.ogImageURL],
+    url: `${appDetails.url}`,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: appDetails.title,
+    description: appDetails.description,
+    site: appDetails.twitterUserName,
+    images: [appDetails.ogImageURL],
+    creator: appDetails.twitterUserName,
+  },
 };
 
 export default function RootLayout({
@@ -21,32 +64,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Primary Meta Tags */}
-        <title>Sina Ghadri</title>
-        <meta name="title" content="Sina Ghadri" />
-        <meta name="description" content="Sina Ghadri's portfolio" />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sinaghadri.com/" />
-        <meta property="og:title" content="Sina Ghadri" />
-        <meta property="og:description" content="Sina Ghadri's portfolio" />
         <meta
           property="og:image"
-          content="https://sinaghadri.com/images/avatar.jpg"
+          content="https://sinaghadri.com/images/avatar-2.jpg"
         />
 
-        {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://sinaghadri.com/" />
-        <meta property="twitter:title" content="Sina Ghadri" />
-        <meta
-          property="twitter:description"
-          content="Sina Ghadri's portfolio"
-        />
         <meta
           property="twitter:image"
-          content="https://sinaghadri.com/images/avatar.jpg"
+          content="https://sinaghadri.com/images/avatar-2.jpg"
         />
 
         {/* favicon */}
