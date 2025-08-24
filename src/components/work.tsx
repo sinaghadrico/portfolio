@@ -20,6 +20,12 @@ const works = [
     projectLink: "https://teleswap.xyz/",
   },
   {
+    imgSrc: "/images/works/malek.png",
+    title: "Malek",
+    tags: ["Next.js", "Zustand", "TailwindCSS", "GSAP", "i18n", "turborepo"],
+    projectLink: "https://demo.malek.ir/",
+  },
+  {
     imgSrc: "/images/works/astrol.png",
     title: "Astrol DAPP (Lending Protocol)",
     tags: ["Next.js", "Solana", "Web3", "TailwindCSS", "Monorepo"],
