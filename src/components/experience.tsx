@@ -2,10 +2,10 @@ import { ExperienceCard } from "@/components";
 
 const experienceItem = [
   {
-    imgSrc: "/images/company/teleportdao.png",
+    imgSrc: "/images/company/teleswap.png",
     label: "Senior Front-End Engineer | Web3 Developer",
-    company: "Teleport DAO",
-    link: "https://teleportdao.xyz/",
+    company: "TeleSwap",
+    link: "https://teleswap.xyz/",
     date: "JUN 2022 - PRESENT",
     location: "DUBAI, UAE",
     desc: "Language",
