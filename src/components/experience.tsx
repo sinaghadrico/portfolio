@@ -1,9 +1,36 @@
 import { ExperienceCard } from "@/components";
 
 const experienceItem = [
+  // {
+  //   imgSrc: "/images/company/malek.png",
+  //   label: "Senior Front-End Engineer",
+  //   company: "Malek",
+  //   link: "https://malek.ir/en",
+  //   date: "Apr 2025 - PRESENT",
+  //   location: "DUBAI, UAE",
+  //   desc: "Language",
+  // },
+  // {
+  //   imgSrc: "/images/company/wallex.jpeg",
+  //   label: "Senior Front-End Engineer",
+  //   company: "Wallex",
+  //   link: "https://wallex.ir/ ",
+  //   date: "Apr 2024 - Mar 2025",
+  //   location: "TEHRAN, IRAN",
+  //   desc: "Language",
+  // },
+  // {
+  //   imgSrc: "/images/company/mofid.jpeg",
+  //   label: "Senior Front-End Engineer - Web3 Developer",
+  //   company: "Mofid Securities",
+  //   link: "https://www.emofid.com/",
+  //   date: "Apr 2023 - Mar 2024",
+  //   location: "Tehran, Iran",
+  //   desc: "Language",
+  // },
   {
     imgSrc: "/images/company/teleswap.png",
-    label: "Senior Front-End Engineer | Web3 Developer",
+    label: "Founding Engineer | Web3 Developer",
     company: "TeleSwap",
     link: "https://teleswap.xyz/",
     date: "JUN 2022 - PRESENT",
@@ -11,21 +38,11 @@ const experienceItem = [
     desc: "Language",
   },
   // {
-  //   imgSrc: "/images/company/mofid.jpeg",
-  //   label: "Blockchain Developer - Web3 Developer",
-  //   company: "Mofid Securities",
-  //   link: "https://www.emofid.com/",
-  //   date: "Apr 2023 - Mar 2024",
-  //   location: "Tehran, Iran",
-  //   desc: "Language",
-  // },
-
-  // {
   //   imgSrc: "/images/company/spark.jfif",
-  //   label: "Senior Front-End Engineer | Web3 Developer",
+  //   label: "Front-End Team Lead | Web3 Developer",
   //   company: "SparkWorld* (TotemFi)",
   //   link: "https://www.sparkworld.io/",
-  //   date: "JUN 2021 - MAY 2022",
+  //   date: "JUN 2022 - MAY 2023",
   //   location: "London UK ( Remote )",
   //   desc: "Language",
   // },
@@ -40,7 +57,7 @@ const experienceItem = [
   },
   {
     imgSrc: "/images/company/flatlay.jfif",
-    label: "Senior Front-End Developer",
+    label: "Front-End Developer",
     company: "Flatlay",
     link: "https://flatlay.io/",
     date: "FEB 2018 - JUL 2019",
@@ -50,7 +67,7 @@ const experienceItem = [
   {
     imgSrc: "/images/company/aseman.jfif",
     label: "Front-End Developer",
-    company: "Iran Aseman Airlines",
+    company: "Aseman Airlines",
     link: "http://www.iaa.ir/",
     date: "SEP 2015 - FEB 2018",
     location: "Tehran, Iran",

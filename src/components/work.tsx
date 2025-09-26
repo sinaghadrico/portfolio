@@ -23,7 +23,7 @@ const works = [
     imgSrc: "/images/works/malek.png",
     title: "Malek",
     tags: ["Next.js", "Zustand", "TailwindCSS", "GSAP", "i18n", "turborepo"],
-    projectLink: "https://demo.malek.ir/",
+    projectLink: "https://malek.ir/en",
   },
   {
     imgSrc: "/images/works/astrol.png",

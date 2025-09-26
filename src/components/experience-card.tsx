@@ -19,7 +19,6 @@ const ExperienceCard = ({
   company,
   link,
   date,
-  location,
   className,
 }: Props) => {
   return (
@@ -41,7 +40,8 @@ const ExperienceCard = ({
         <h3>{label}</h3>
         <span className="flex w-full justify-between">
           <p className="text-zinc-400 text-sm">
-            {company} - {location}
+            {company}
+            {/* - {location} */}
           </p>
           <p className="text-zinc-400 text-sm">{date}</p>
         </span>
