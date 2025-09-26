@@ -55,12 +55,12 @@ const works = [
     tags: ["Next.js", "MUI", "i18n"],
     projectLink: "https://dataak.com/",
   },
-  {
-    imgSrc: "/images/works/moodic.png",
-    title: "Moodic (Music Player)",
-    tags: ["Next.js", "TailwindCSS", "i18n", "Monorepo"],
-    projectLink: "https://mymoodic.com",
-  },
+  // {
+  //   imgSrc: "/images/works/moodic.png",
+  //   title: "Moodic (Music Player)",
+  //   tags: ["Next.js", "TailwindCSS", "i18n", "Monorepo"],
+  //   projectLink: "https://mymoodic.com",
+  // },
   {
     imgSrc: "/images/works/flatlay.jpeg",
     title: "Flatlay",
