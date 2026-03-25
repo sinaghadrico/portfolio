@@ -38,9 +38,9 @@ export default function Home() {
       <ReactLenis root options={{ autoRaf: true }}>
         <Hero />
         <About />
+        <Work />
         <Experience />
         <Skill />
-        <Work />
         <Contact />
       </ReactLenis>
     </main>

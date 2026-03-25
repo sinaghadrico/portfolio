@@ -8,6 +8,20 @@ const works = [
   //   projectLink: "https://teleportdao.xyz/",
   // },
   {
+    imgSrc: "/images/works/moneystyle.png",
+    title: "Money Style",
+    tags: [
+      "Next.js",
+      "TailwindCSS",
+      "Server Actions",
+      "PostgreSQL",
+      "OpenAI",
+      "Telegram Bot",
+      "PWA",
+    ],
+    projectLink: "https://moneystyle.app/",
+  },
+  {
     imgSrc: "/images/works/app-teleswap.png",
     title: "TeleSwap DAPP",
     tags: ["React.js", "Web3", "EVM", "Bitcoin", "TON", "TailwindCSS", "Vite"],
