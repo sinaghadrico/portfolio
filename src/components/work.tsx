@@ -22,7 +22,7 @@ const works = [
     projectLink: "https://moneystyle.app/",
   },
   {
-    imgSrc: "/images/works/app-teleswap.png",
+    imgSrc: "/images/works/teleswap-app-g.png",
     title: "TeleSwap DAPP",
     tags: ["React.js", "Web3", "EVM", "Bitcoin", "TON", "TailwindCSS", "Vite"],
     projectLink: "https://app.teleswap.xyz/",
