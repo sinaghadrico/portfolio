@@ -12,7 +12,7 @@ const experienceItem = [
   // },
   {
     imgSrc: "/images/company/teleswap.png",
-    label: "Founding Engineer | Web3 Developer",
+    label: "Founding Engineer | Software & Web3 Engineer",
     company: "TeleSwap",
     link: "https://teleswap.xyz/",
     date: "JUN 2022 - PRESENT",
