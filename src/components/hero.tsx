@@ -25,7 +25,7 @@ const Hero = () => {
               Available for work
             </div>
           </div>
-          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
+          <h2 className="headline-1 max-[639px]:!text-[32px] max-w-[18ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
             Senior AI-Native Software Engineer
           </h2>
           <div className="flex items-center gap-3">
